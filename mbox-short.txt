@@ -1,0 +1,27 @@
+Author: cwen@iupui.edu
+Date: 2008-01-04 11:33:05 -0500 (Fri, 04 Jan 2008)
+New Revision: 39763
+
+Modified:
+msgcntr/trunk/messageforums-api/src/bundle/org/sakaiproject/api/app/messagecenter/bundle/Messages.properties
+msgcntr/trunk/messageforums-app/src/java/org/sakaiproject/tool/messageforums/PrivateMessagesTool.java
+Log:
+unmerge Xingtang's check in for SAK-12484.
+
+svn merge -r39571:39570 https://source.sakaiproject.org/svn/msgcntr/trunk
+U    messageforums-api/src/bundle/org/sakaiproject/api/app/messagecenter/bundle/Messages.properties
+U    messageforums-app/src/java/org/sakaiproject/tool/messageforums/PrivateMessagesTool.java
+
+svn log -r 39571
+------------------------------------------------------------------------
+r39571 | hu2@iupui.edu | 2007-12-20 21:26:28 -0500 (Thu, 20 Dec 2007) | 3 lines
+
+SAK-12484
+reply all cc list should not include the current user name.
+http://jira.sakaiproject.org/jira/browse/SAK-12484
+------------------------------------------------------------------------
+
+
+----------------------
+This automatic notification message was sent by Sakai Collab (https://collab.sakaiproject.org/portal) from the Source site.
+You can modify how you receive notifications at My Workspace > Preferences.
